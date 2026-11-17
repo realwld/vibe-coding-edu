@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5b46b2">
+  <meta name="description" content="25분 집중하고 5분 쉬어 가는 학습용 집중 타이머.">
+  <title>집중 한 조각 — VIBE LAB</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header><a href="../../">← 전시관으로</a><span>VIBE LAB / 예시 작품 001</span></header>
+  <main>
+    <div class="eyebrow"><span></span> FOCUS PIECE</div>
+    <h1>집중 한 조각</h1>
+    <p class="intro">작은 집중이 모여, 큰 변화를.</p>
+    <div class="modes" role="group" aria-label="타이머 모드"><button type="button" data-mode="focus" aria-pressed="true">25분 집중</button><button type="button" data-mode="break" aria-pressed="false">5분 휴식</button></div>
+    <div class="clock"><svg viewBox="0 0 280 280" aria-hidden="true"><circle class="track" cx="140" cy="140" r="130"/><circle id="progress" cx="140" cy="140" r="130" pathLength="100"/></svg><div class="clock-text"><span id="mode-label">나에게 집중할 시간</span><span id="time" role="timer" aria-label="남은 시간">25:00</span><span id="clock-note">한 번에, 한 가지씩.</span></div></div>
+    <div class="controls"><button type="button" id="start">집중 시작하기 ↗</button><button type="button" id="reset" aria-label="타이머 초기화">↺</button></div>
+    <p id="status" role="status">준비되면 시작해 보세요.</p>
+    <div class="completed">오늘 이 페이지에서 완료한 집중 <strong id="completed">0</strong>회</div>
+  </main>
+  <footer><span>HTML · CSS · JavaScript로 만든 학습용 예시</span><span>YOUR TIME, YOUR PACE ✳</span></footer>
+</body>
+</html>
