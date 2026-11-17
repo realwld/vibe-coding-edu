@@ -24,7 +24,7 @@ python3 -m http.server 8000
 - `index.html`: 작품명, 설명, 작성자 표시, 예시 라벨, 실행 경로 및 GitHub 코드 링크를 수정합니다. 실제 작품을 게시할 때 소개 영역의 예시 안내도 함께 수정합니다.
 - `projects/focus/`: 예시 앱의 `index.html`, `style.css`, `script.js`입니다. 새 작품은 `projects/작품이름/`에 같은 방식으로 추가할 수 있습니다.
 - 작품을 늘리면 `article.project`를 복제하고 작품 번호와 전체 개수(`.count`)를 수정합니다.
-- 모든 내부 경로는 저장소 하위 URL에서도 동작하도록 상대 경로를 사용합니다.
+- 메인 페이지의 홈·작품 실행 링크와 대표 URL은 실제 GitHub Pages 주소를 사용합니다. CSS·JavaScript 파일과 작품 페이지의 돌아가기 링크는 상대 경로를 사용합니다.
 - Google Fonts를 사용하며, 연결할 수 없으면 기기의 기본 sans-serif 글꼴로 표시됩니다.
 
 학생 이름 대신 팀명이나 닉네임을 사용해도 됩니다. 서버, 계정, 데이터베이스는 필요하지 않습니다.
