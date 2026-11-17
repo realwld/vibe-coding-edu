@@ -8,7 +8,7 @@
 python3 -m http.server 8000
 ```
 
-브라우저에서 http://localhost:8000 을 엽니다. 첫 화면은 전시관, `projects/focus/`는 실행 가능한 집중 타이머입니다. 집중 25분 / 휴식 5분 전환, 시작·일시 정지·초기화와 완료 횟수를 지원합니다. 완료 횟수는 현재 페이지를 열어 둔 동안만 유지됩니다. 타이머는 자동으로 다음 모드로 넘어가지 않습니다.
+브라우저에서 http://localhost:8000 을 엽니다. 첫 화면은 전시관, `projects/eumseonghs/focus/`는 실행 가능한 집중 타이머입니다. 집중 25분 / 휴식 5분 전환, 시작·일시 정지·초기화와 완료 횟수를 지원합니다. 완료 횟수는 현재 페이지를 열어 둔 동안만 유지됩니다. 타이머는 자동으로 다음 모드로 넘어가지 않습니다.
 
 ## GitHub Pages 배포
 
@@ -22,7 +22,7 @@ python3 -m http.server 8000
 ## 실제 작품으로 바꾸기
 
 - `index.html`: 작품명, 설명, 작성자 표시, 예시 라벨, 실행 경로 및 GitHub 코드 링크를 수정합니다. 실제 작품을 게시할 때 소개 영역의 예시 안내도 함께 수정합니다.
-- `projects/focus/`: 예시 앱의 `index.html`, `style.css`, `script.js`입니다. 새 작품은 `projects/작품이름/`에 같은 방식으로 추가할 수 있습니다.
+- `projects/eumseonghs/focus/`: 예시 앱의 `index.html`, `style.css`, `script.js`입니다. 새 작품은 `projects/작품이름/`에 같은 방식으로 추가할 수 있습니다.
 - 작품을 늘리면 `article.project`를 복제하고 작품 번호와 전체 개수(`.count`)를 수정합니다.
 - 메인 페이지의 홈·작품 실행 링크와 대표 URL은 실제 GitHub Pages 주소를 사용합니다. CSS·JavaScript 파일과 작품 페이지의 돌아가기 링크는 상대 경로를 사용합니다.
 - Google Fonts를 사용하며, 연결할 수 없으면 기기의 기본 sans-serif 글꼴로 표시됩니다.
